@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --toastify-color-warning: #3D68FF;
+    --toastify-icon-color-warning: var(--toastify-color-warning);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Syne', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --toastify-color-warning: #3D68FF;
+}
+
+.active {
+  background-color: #3A6EFF;
+  color: #fff;
+}
